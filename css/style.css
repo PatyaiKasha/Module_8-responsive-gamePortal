@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+body {
+  background: url("../img/bg-main.jpg"); }
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000; }
+
+.mmenu {
+  display: none;
+  width: 220px;
+  height: 100vh;
+  background: #999;
+  margin: -210px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 2em;
+  padding: 16px 0 0 16px;
+  opacity: 0.95;
+  box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.75);
+  transition: all ease 0.5s; }
+  .mmenu li {
+    list-style: none;
+    padding: 0 0 0 8px; }
+    .mmenu li:hover {
+      background: #0366A0; }
+      .mmenu li:hover a {
+        color: #fff;
+        border-bottom: none; }
+
+.wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 32px 32px rgba(0, 0, 0, 0.35); }
+  .wrap header {
+    display: block;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: url("../img/banner-solutions-initiatives-smartgrid.jpg");
+    box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.75);
+    transition: all ease 0.5s; }
+    .wrap header h1 {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .25em;
+      color: #fff; }
+  .wrap nav {
+    font-size: 0; }
+    .wrap nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    .wrap nav ul li {
+      margin-top: 16px;
+      list-style: none;
+      font-size: 16px;
+      padding: 16px 8px;
+      transition: all ease .25s; }
+      .wrap nav ul li:hover {
+        background: #0366A0;
+        cursor: pointer; }
+        .wrap nav ul li:hover a {
+          color: #fff;
+          border-bottom: none; }
+  .wrap section {
+    text-align: center;
+    font-size: 0; }
+    .wrap section h2 {
+      font-size: 32px;
+      margin: 32px 0 16px 0; }
+    .wrap section img {
+      width: 33.33%; }
+    .wrap section p {
+      font-size: 16px;
+      text-align: left;
+      text-indent: 24px;
+      padding: 0 32px; }
+    .wrap section .video {
+      width: 75%;
+      background: gold;
+      padding: 24px;
+      background: url("../img/bg-video.jpg");
+      margin: 0 auto 24px; }
+      .wrap section .video iframe {
+        width: 100%; }
+  .wrap footer {
+    width: 100%;
+    height: 72px;
+    margin-top: 32px;
+    background: #0366A0;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 72px;
+    text-align: center; }
+
+#up a {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: #0366A0;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  transition: all ease .15s; }
+  #up a:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25); }
+
+@media screen and (max-width: 768px) {
+  body {
+    background: none; }
+
+  .wrap {
+    box-shadow: none;
+    width: 98%; }
+
+  nav {
+    display: none; }
+
+  .mmenu {
+    display: block; }
+
+  .mmenu:hover {
+    margin: 0; }
+
+  .wrap section img {
+    width: 50%; } }
+@media screen and (max-width: 375px) {
+  .wrap section img {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

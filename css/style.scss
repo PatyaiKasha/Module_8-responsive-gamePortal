@@ -9,6 +9,7 @@ $main-color: #0366A0;
 
 body {
   background: url("../img/bg-main.jpg");
+  background-attachment: fixed;
 }
 
 a {
@@ -125,6 +126,7 @@ a {
     font-weight: bolder;
     line-height: 72px;
     text-align: center;
+    box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.75);
   }
 }
 

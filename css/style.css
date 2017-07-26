@@ -49,31 +49,33 @@ a {
     line-height: 100px;
     background: url("../img/banner-solutions-initiatives-smartgrid.jpg");
     box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.75);
-    transition: all ease 0.5s; }
+    transition: all ease 0.5s;
+    margin-bottom: 100px; }
     .wrap header h1 {
       text-align: center;
       text-transform: uppercase;
       letter-spacing: .25em;
       color: #fff; }
-  .wrap nav {
-    font-size: 0; }
-    .wrap nav ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    .wrap nav ul li {
-      margin-top: 16px;
-      list-style: none;
-      font-size: 16px;
-      padding: 16px 8px;
-      transition: all ease .25s; }
-      .wrap nav ul li:hover {
-        background: #0366A0;
-        cursor: pointer; }
-        .wrap nav ul li:hover a {
-          color: #fff;
-          border-bottom: none; }
+    .wrap header nav {
+      font-size: 0; }
+      .wrap header nav ul {
+        text-align: center; }
+      .wrap header nav ul li {
+        text-align: center;
+        display: inline;
+        margin-top: 16px;
+        list-style: none;
+        font-size: 16px;
+        padding: 16px 8px;
+        transition: all ease .25s; }
+        .wrap header nav ul li:hover {
+          background: #0366A0;
+          cursor: pointer; }
+          .wrap header nav ul li:hover a {
+            color: #fff;
+            border-bottom: none; }
   .wrap section {
+    display: block;
     text-align: center;
     font-size: 0; }
     .wrap section .videoWrapper {
@@ -126,7 +128,7 @@ a {
   .up a:hover {
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25); }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   body {
     background: none; }
 

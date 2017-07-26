@@ -59,37 +59,40 @@ a {
         background: url("../img/banner-solutions-initiatives-smartgrid.jpg");
         box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.75);
         transition: all ease 0.5s;
+        margin-bottom: 100px;
+
         h1 {
             text-align: center;
             text-transform: uppercase;
             letter-spacing: .25em;
             color: #fff;
         }
-    }
-    nav {
-        font-size: 0;
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        ul li {
-            margin-top: 16px;
-            list-style: none;
-            font-size: 16px;
-            padding: 16px 8px;
-            transition: all ease .25s;
-            &:hover {
-                background: $main-color;
-                cursor: pointer;
-                a {
-                    color: #fff;
-                    border-bottom: none;
+        nav {
+            font-size: 0;
+            ul {
+                text-align: center;
+            }
+            ul li {
+                text-align: center;
+                display: inline;
+                margin-top: 16px;
+                list-style: none;
+                font-size: 16px;
+                padding: 16px 8px;
+                transition: all ease .25s;
+                &:hover {
+                    background: $main-color;
+                    cursor: pointer;
+                    a {
+                        color: #fff;
+                        border-bottom: none;
+                    }
                 }
             }
         }
     }
     section {
+        display: block;
         .videoWrapper {
             position: relative;
             padding-bottom: 56.25%;
@@ -121,6 +124,7 @@ a {
             padding: 0 32px;
         }
     }
+
     footer {
         width: 100%;
         height: 72px;
@@ -154,7 +158,7 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     body {
         background: none;
     }
